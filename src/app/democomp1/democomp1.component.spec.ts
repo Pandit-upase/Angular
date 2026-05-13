@@ -1,20 +1,18 @@
-/// <reference types="jasmine" />
-
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { DemoC1Component } from './demo-c1.component';
+import { Democomp1Component } from './democomp1.component';
 
-describe('DemoC1Component', () => {
-  let component: DemoC1Component;
-  let fixture: ComponentFixture<DemoC1Component>;
+describe('Democomp1Component', () => {
+  let component: Democomp1Component;
+  let fixture: ComponentFixture<Democomp1Component>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [DemoC1Component]
+      imports: [Democomp1Component]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(DemoC1Component);
+    fixture = TestBed.createComponent(Democomp1Component);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
