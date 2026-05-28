@@ -1,0 +1,104 @@
+<h1>Pipes demonstartion</h1>
+<br>
+
+<br>
+<!-- Default -->
+<br>
+{{ today | date }}
+<br>
+
+<br>
+<!-- Short Date -->
+<br>
+{{ today | date:'shortDate' }}
+<br>
+
+<br>
+<!-- Full Date -->
+<br>
+{{ today | date:'fullDate' }}
+<br>
+
+<br>
+<!-- Medium Date -->
+<br>
+{{ today | date:'mediumDate' }}
+<br>
+
+<br>
+<!-- Short Time -->
+<br>
+{{ today | date:'shortTime' }}
+<br>
+
+<br>
+<!-- Full Date Time -->
+<br>
+{{ today | date:'full' }}
+<br>
+
+<br>
+<!-- Custom Formats -->
+<br>
+{{ today | date:'dd/MM/yyyy' }}
+<br>
+
+<br>
+{{ today | date:'MM-dd-yyyy' }}
+<br>
+
+<br>
+{{ today | date:'dd MMM yyyy' }}
+<br>
+
+<br>
+{{ today | date:'dd MMMM yyyy' }}
+<br>
+
+<br>
+{{ today | date:'hh:mm:ss a' }}
+<br>
+
+<br>
+{{ today | date:'dd-MM-yyyy hh:mm:ss a' }}  ,<br>
+<br>
+
+<br>
+<!-- Number Pipe -->
+<br>
+ {{num}}
+<br>
+{{ num | number }}
+<br>
+
+<br>
+{{ num | percent}}
+<br>
+
+<br>
+{{ num | percent:'1.2-3' }}
+<br>
+<br>
+
+<br>
+{{ num | number }}
+<br>
+
+<br>
+{{ num | number:'1.2-2' }}
+<br>
+
+<br>
+{{ num | number:'3.1-4' }}
+<br>
+<br>
+<!-- Slice Pipe Demonstration -->
+<br>
+{{ myName }}
+<br>
+{{ myName | slice:0:4 }}
+<br>
+{{ myName | slice:4 }}
+<br>
+{{ myName | slice:-3 }}
+<br>

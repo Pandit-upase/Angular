@@ -13,6 +13,5 @@ export class Democomp1Component {
 
 imgsrc:string='https://gratisography.com/wp-content/uploads/2025/05/gratisography-moon-robot-800x525.jpg';
 height:number=200;
-width:number=200;
-
+width:number=200; 
 }
